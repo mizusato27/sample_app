@@ -4,6 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.2.8"
 
 gem "rails", "7.1.0"
+gem "bcrypt",          "~>3.1.18"
 gem "bootstrap-sass",  "~> 3.4.1"
 gem "sassc-rails"
 gem "sprockets-rails", "3.5.2"
