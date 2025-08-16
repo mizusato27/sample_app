@@ -38,4 +38,8 @@ group :test do
   gem "minitest-reporters"
   gem "guard"
   gem "guard-minitest"
+
+  group :production do
+    gem "pg", "1.3.5"
+  end
 end
